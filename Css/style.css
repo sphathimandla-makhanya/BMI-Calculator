@@ -4,12 +4,23 @@
 }
 
 .main{
-    text-align: center;
-    background-color: cadetblue;
-    margin-top: 15rem;
-    min-width: 45rem;
-    text-wrap: wrap;
+   margin-top: 25px; 
+   display: table;
+   padding: 15px;
+   background-color: cadetblue;
+   border: solid 2.5px black;
 }
+.main label{
+    display: table-row;
+    font-weight: bold;
+}
+
+.main input{
+    display: table-row;
+    padding: 3px;
+}
+
+
 
 
 
